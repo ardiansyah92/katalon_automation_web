@@ -16,5 +16,4 @@
 
   Step 4 Run this code in katalon studio
 
-    Click button RUN in katalon studio -> android
-    
+    Click button RUN in katalon
