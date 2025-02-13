@@ -4,7 +4,7 @@
 
   Step 1 Clone this code
 
-    git
+    git clone https://github.com/ardiansyah92/katalon_automation_web.git
 
   Step 2 Open your katalon studio
 
@@ -16,5 +16,5 @@
 
   Step 4 Run this code in katalon studio
 
-    Click button RUN -> android
+    Click button RUN in katalon studio -> android
     
