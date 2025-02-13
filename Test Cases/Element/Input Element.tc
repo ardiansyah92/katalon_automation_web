@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Element</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffe580a7-ea06-4bdb-8548-0294588ff0f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8e44a54-4553-45ba-99c0-0815ea850010</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>439fd421-b36c-4664-8061-a87030ede605</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Bandung Jawa Barat'</defaultValue>
+      <description></description>
+      <id>c8e44a54-4553-45ba-99c0-0815ea850010</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'IndigoHub Bandung Jawa Barat'</defaultValue>
+      <description></description>
+      <id>439fd421-b36c-4664-8061-a87030ede605</id>
+      <masked>false</masked>
+      <name>parentAddres</name>
+   </variable>
+</TestCaseEntity>

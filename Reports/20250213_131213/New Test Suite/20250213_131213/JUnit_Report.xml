@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="41.83" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="41.83" skipped="0" timestamp="13-02-2025T13:12:19" hostname="ardiansyah - localhost" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ardiansyah/Documents/Me/Katalon_Automation_Web/Reports/20250213_131213/New Test Suite/20250213_131213"/>
+         <property name="logFiles" value="/Users/ardiansyah/Documents/Me/Katalon_Automation_Web/Reports/20250213_131213/New Test Suite/20250213_131213/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="fdcaaad4ed0776305624348afb0c180f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Element/Input Element" time="30.501" classname="Test Cases/Element/Input Element" status="PASSED">
+         <system-out><![CDATA[13-02-2025T13:12:19 - [TEST_CASE][PASSED] - Test Cases/Element/Input Element: Test Cases/Element/Input Element
+
+13-02-2025T13:12:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+13-02-2025T13:12:19 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+13-02-2025T13:12:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2025T13:12:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2025T13:12:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2025T13:12:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2025T13:12:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-02-2025T13:12:22 - [MESSAGE][PASSED] - Current window maximized
+
+13-02-2025T13:12:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+13-02-2025T13:12:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Navigate URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:22 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Navigate URL: Test Cases/CustomKeyword/Navigate URL
+
+13-02-2025T13:12:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://demoqa.com/' successfully
+
+13-02-2025T13:12:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+13-02-2025T13:12:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - randomEmail = generateRandomEmail(): null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - randomString = RandomStringUtils.randomAlphanumeric(8): null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - return user_$randomString@yopmail.com: null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - randomname = generateRandomName(): null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - randomString = RandomStringUtils.randomAlphanumeric(8): null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - return user_$randomString: null
+
+13-02-2025T13:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Element/div_Elements")): Object: 'Object Repository/Element/div_Elements' is clicked on
+
+13-02-2025T13:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Element/div_Elements' is clicked on
+
+13-02-2025T13:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Element/span_Text Box")): Object: 'Object Repository/Element/span_Text Box' is clicked on
+
+13-02-2025T13:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Element/span_Text Box' is clicked on
+
+13-02-2025T13:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Element/input_Full Name_userName"), randomname): Text 'user_aFzwzqUr' is set on object 'Object Repository/Element/input_Full Name_userName'
+
+13-02-2025T13:12:47 - [MESSAGE][PASSED] - Text 'user_aFzwzqUr' is set on object 'Object Repository/Element/input_Full Name_userName'
+
+13-02-2025T13:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Element/input_Email_userEmail"), randomEmail): Text 'user_SXiNl5Tq@yopmail.com' is set on object 'Object Repository/Element/input_Email_userEmail'
+
+13-02-2025T13:12:48 - [MESSAGE][PASSED] - Text 'user_SXiNl5Tq@yopmail.com' is set on object 'Object Repository/Element/input_Email_userEmail'
+
+13-02-2025T13:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Element/textarea_Current Address_currentAddress"), address): Text 'Bandung Jawa Barat' is set on object 'Object Repository/Element/textarea_Current Address_currentAddress'
+
+13-02-2025T13:12:48 - [MESSAGE][PASSED] - Text 'Bandung Jawa Barat' is set on object 'Object Repository/Element/textarea_Current Address_currentAddress'
+
+13-02-2025T13:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Element/textarea_Permanent Address_permanentAddress"), parentAddres): Text 'IndigoHub Bandung Jawa Barat' is set on object 'Object Repository/Element/textarea_Permanent Address_permanentAddress'
+
+13-02-2025T13:12:49 - [MESSAGE][PASSED] - Text 'IndigoHub Bandung Jawa Barat' is set on object 'Object Repository/Element/textarea_Permanent Address_permanentAddress'
+
+13-02-2025T13:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Element/button_Submit")): Object: 'Object Repository/Element/button_Submit' is clicked on
+
+13-02-2025T13:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Element/button_Submit' is clicked on
+
+13-02-2025T13:12:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+13-02-2025T13:12:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2025T13:12:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element/CheckBox" time="11.223" classname="Test Cases/Element/CheckBox" status="PASSED">
+         <system-out><![CDATA[13-02-2025T13:12:50 - [TEST_CASE][PASSED] - Test Cases/Element/CheckBox: Test Cases/Element/CheckBox
+
+13-02-2025T13:12:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+13-02-2025T13:12:50 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+13-02-2025T13:12:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2025T13:12:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2025T13:12:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2025T13:12:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2025T13:12:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-02-2025T13:12:51 - [MESSAGE][PASSED] - Current window maximized
+
+13-02-2025T13:12:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+13-02-2025T13:12:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Navigate URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:51 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Navigate URL: Test Cases/CustomKeyword/Navigate URL
+
+13-02-2025T13:12:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://demoqa.com/' successfully
+
+13-02-2025T13:12:55 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+13-02-2025T13:12:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Navigate URL' successfully
+
+13-02-2025T13:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Element/div_Elements")): Object: 'Object Repository/Element/div_Elements' is clicked on
+
+13-02-2025T13:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Element/div_Elements' is clicked on
+
+13-02-2025T13:12:57 - [TEST_STEP][PASSED] - click(findTestObject("CheckBox/li_Check Box")): Object: 'Object Repository/CheckBox/li_Check Box' is clicked on
+
+13-02-2025T13:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckBox/li_Check Box' is clicked on
+
+13-02-2025T13:12:58 - [TEST_STEP][PASSED] - click(findTestObject("CheckBox/svg_Check Box_rct-icon rct-icon-expand-all")): Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-expand-all' is clicked on
+
+13-02-2025T13:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-expand-all' is clicked on
+
+13-02-2025T13:12:59 - [TEST_STEP][PASSED] - click(findTestObject("CheckBox/svg_Check Box_rct-icon rct-icon-collapse-all")): Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-collapse-all' is clicked on
+
+13-02-2025T13:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-collapse-all' is clicked on
+
+13-02-2025T13:13:00 - [TEST_STEP][PASSED] - click(findTestObject("CheckBox/svg_Check Box_rct-icon rct-icon-check")): Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-check' is clicked on
+
+13-02-2025T13:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-check' is clicked on
+
+13-02-2025T13:13:00 - [TEST_STEP][PASSED] - click(findTestObject("CheckBox/svg_Check Box_rct-icon rct-icon-uncheck")): Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-uncheck' is clicked on
+
+13-02-2025T13:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckBox/svg_Check Box_rct-icon rct-icon-uncheck' is clicked on
+
+13-02-2025T13:13:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+13-02-2025T13:13:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2025T13:13:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2025T13:12:19 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Element/CheckBox]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

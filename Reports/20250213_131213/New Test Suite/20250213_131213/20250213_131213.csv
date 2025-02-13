@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 133.0.0.0,,,13-02-2025 13:12:19,13-02-2025 13:13:01,41.830s,PASSED
+,,,,,,,
+Test Cases/Element/Input Element,Chrome 133.0.0.0,,,13-02-2025 13:12:19,13-02-2025 13:12:50,30.501s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 133.0.0.0,,,13-02-2025 13:12:19,13-02-2025 13:12:43,24.092s,PASSED
+randomEmail = generateRandomEmail(),Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.003s,PASSED
+randomString = RandomStringUtils.randomAlphanumeric(8),Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.009s,PASSED
+return user_$randomString@yopmail.com,Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.070s,PASSED
+randomname = generateRandomName(),Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.004s,PASSED
+randomString = RandomStringUtils.randomAlphanumeric(8),Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.002s,PASSED
+return user_$randomString,Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:43,0.001s,PASSED
+"click(findTestObject(""Element/div_Elements""))",Chrome 133.0.0.0,,,13-02-2025 13:12:43,13-02-2025 13:12:44,1.013s,PASSED
+"click(findTestObject(""Element/span_Text Box""))",Chrome 133.0.0.0,,,13-02-2025 13:12:44,13-02-2025 13:12:46,1.897s,PASSED
+"setText(findTestObject(""Element/input_Full Name_userName""), randomname)",Chrome 133.0.0.0,,,13-02-2025 13:12:46,13-02-2025 13:12:47,0.985s,PASSED
+"setText(findTestObject(""Element/input_Email_userEmail""), randomEmail)",Chrome 133.0.0.0,,,13-02-2025 13:12:47,13-02-2025 13:12:48,0.557s,PASSED
+"setText(findTestObject(""Element/textarea_Current Address_currentAddress""), address)",Chrome 133.0.0.0,,,13-02-2025 13:12:48,13-02-2025 13:12:48,0.563s,PASSED
+"setText(findTestObject(""Element/textarea_Permanent Address_permanentAddress""), parentAddres)",Chrome 133.0.0.0,,,13-02-2025 13:12:48,13-02-2025 13:12:49,0.603s,PASSED
+"click(findTestObject(""Element/button_Submit""))",Chrome 133.0.0.0,,,13-02-2025 13:12:49,13-02-2025 13:12:49,0.272s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.0.0,,,13-02-2025 13:12:49,13-02-2025 13:12:50,0.235s,PASSED
+,,,,,,,
+Test Cases/Element/CheckBox,Chrome 133.0.0.0,,,13-02-2025 13:12:50,13-02-2025 13:13:01,11.223s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 133.0.0.0,,,13-02-2025 13:12:50,13-02-2025 13:12:55,5.651s,PASSED
+"click(findTestObject(""Element/div_Elements""))",Chrome 133.0.0.0,,,13-02-2025 13:12:55,13-02-2025 13:12:57,1.259s,PASSED
+"click(findTestObject(""CheckBox/li_Check Box""))",Chrome 133.0.0.0,,,13-02-2025 13:12:57,13-02-2025 13:12:58,1.703s,PASSED
+"click(findTestObject(""CheckBox/svg_Check Box_rct-icon rct-icon-expand-all""))",Chrome 133.0.0.0,,,13-02-2025 13:12:58,13-02-2025 13:12:59,0.934s,PASSED
+"click(findTestObject(""CheckBox/svg_Check Box_rct-icon rct-icon-collapse-all""))",Chrome 133.0.0.0,,,13-02-2025 13:12:59,13-02-2025 13:13:00,0.485s,PASSED
+"click(findTestObject(""CheckBox/svg_Check Box_rct-icon rct-icon-check""))",Chrome 133.0.0.0,,,13-02-2025 13:13:00,13-02-2025 13:13:00,0.473s,PASSED
+"click(findTestObject(""CheckBox/svg_Check Box_rct-icon rct-icon-uncheck""))",Chrome 133.0.0.0,,,13-02-2025 13:13:00,13-02-2025 13:13:01,0.473s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.0.0,,,13-02-2025 13:13:01,13-02-2025 13:13:01,0.178s,PASSED
