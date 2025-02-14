@@ -10,10 +10,6 @@
 
     Open your Katalon Studio
 
-  Step 3 Open your emulator
-
-    emulator -avd <name emulator>
-
-  Step 4 Run this code in katalon studio
+  Step 3 Run this code in katalon studio
 
     Click button RUN in katalon
