@@ -30,9 +30,9 @@ WebUI.click(findTestObject('Element/div_Elements'))
 
 WebUI.click(findTestObject('Element/span_Text Box'))
 
-WebUI.setText(findTestObject('Element/input_Full Name_userName'), randomname)
+WebUI.setText(findTestObject('Element/input_Full Name_userName'), "$randomname@yopmail.com")
 
-WebUI.setText(findTestObject('Element/input_Email_userEmail'), randomEmail)
+WebUI.setText(findTestObject('Element/input_Email_userEmail'), "$randomname")
 
 WebUI.setText(findTestObject('Element/textarea_Current Address_currentAddress'), address)
 
